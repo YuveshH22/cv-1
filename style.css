@@ -1,0 +1,67 @@
+html{
+    background-color: lightgray;
+    flex: 200%;
+
+}
+
+h1{
+    color:#000
+
+    
+}
+
+body{
+    border: 0.2cm;
+    
+    
+}
+  article{
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align:left ;
+  }
+
+  aside{
+    padding: 0.2rem;
+    box-sizing: border-box;
+    text-align: right;
+  }
+
+  
+  header {
+    padding: 0.25rem;
+    box-sizing: border-box;
+   
+    background-color: rgba(97, 96, 96, 0.548);
+    color: rgb(0, 0, 0);
+    border-bottom:0.2em solid;
+  
+  }
+
+  body {
+    display: flex;                
+    flex-direction: column;
+    max-width: 80rem;
+    margin: auto;
+  }
+  main {
+    display: flex;
+    flex-wrap:inherit;
+    box-sizing: border-box;
+    border-bottom: 0.2rem solid;
+  }
+
+  
+  article {
+    flex-direction: column;
+    flex: 50%;
+  }
+  aside {
+    flex-direction: column;
+    flex: 50%;
+    background-color: rgb(218, 218, 218);
+  }
+
+  h1{
+    margin: auto;
+  }
